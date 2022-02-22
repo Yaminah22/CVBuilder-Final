@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.text{
+    background-color: white;
+    border:2px dashed black;
+    flex-wrap: wrap;
+    padding:1.5rem;
+    margin:1rem;
+    width:300px;
+    text-align:center;
+    cursor: pointer;
+}
+.summary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.button_form{
+    margin-top:-20px;
+}

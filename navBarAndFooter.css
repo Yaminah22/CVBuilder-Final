@@ -1,0 +1,55 @@
+.h-font {
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.image{
+    width: 160px;
+    margin-left: 30px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+.navbar{
+    padding:0 1rem !important;
+    background-color: #387997;
+}
+.nav-link {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-right: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.dropdown-menu {
+    background-color: #75acc5 !important;
+}
+
+.dropdown-item {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.dropdown-item:hover {
+    background: color #387997 !important;
+    font-weight: 500;
+}
+
+.fa-copyright {
+    font-size: 20px !important;
+}
+
+.footer,
+.fa-whatsapp,
+.fa-envelope-o {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #387997;
+    color: white;
+}
+
+.footer>a {
+    font-weight: 700 !important;
+}

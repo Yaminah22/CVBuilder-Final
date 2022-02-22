@@ -1,0 +1,64 @@
+.progress1 {
+    text-align: center;
+    margin-left:7rem;
+  }
+  .progress1 .circle,
+  .progress1 .bar {
+    display: inline-block;
+    background: #fff;
+    width: 40px; height: 40px;
+    border-radius: 40px;
+    border: 1px solid #d5d5da;
+  }
+  .progress1 .bar {
+    position: relative;
+    width: 80px;
+    height: 6px;
+    top: -33px;
+    margin-left: -5px;
+    margin-right: -5px;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+  }
+  .progress1 .circle .label {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 32px;
+    margin-top: 3px;
+    color: #444;
+    font-size: 17px;
+  }
+  .progress1 .circle .title {
+    color: #444;
+    font-size: 13px;
+    line-height: 30px;
+    margin-left: -5px;
+  }
+  
+  /* Done / Active */
+  .progress1 .bar.done,
+  .progress .circle.done {
+    background: #eee;
+  }
+  .progress1 .bar.active {
+    background: linear-gradient(to right, #EEE 40%, #FFF 60%);
+  }
+  .progress1 .circle.done .label {
+    color: #FFF;
+    background: #8bc435;
+    box-shadow: inset 0 0 2px rgba(0,0,0,.2);
+  }
+  .progress1 .circle.done .title {
+    color: #444;
+  }
+  .progress1 .circle.active .label {
+    color: #FFF;
+    background: #0e6883;
+    box-shadow: inset 0 0 2px rgba(0,0,0,.2);
+  }
+  .progress1 .circle.active .title {
+    color: #0e6883;
+  }

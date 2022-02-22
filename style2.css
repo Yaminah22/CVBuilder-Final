@@ -1,0 +1,115 @@
+body{
+    background-image: url('imgaes/bg.jpeg') !important ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.card{
+    margin-left: 10%;
+}
+.circle{border-color: white;
+    border-radius: 50%;
+    height: 50px;
+    width:50px;
+    margin-right: 4px;
+    border: none;
+}
+.list{display: inline-flex;
+list-style:none;
+margin-top:2%;
+justify-content:center ;}
+.dropdown-menu{
+    
+    background-color:#75acc5 !important ;
+    color: white;
+
+}
+
+.dropdown-item{
+    color: rgb(97, 68, 68);
+    font-size: 20px;
+    font-weight: bold !important;
+}
+.dropdown-item:hover{
+    background: color #285569 !important; 
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.card:hover .btn {
+     z-index: 2;
+}
+.img:hover{
+    opacity: .1;
+}
+.btn{
+    position: absolute;
+    display: none;
+    z-index: -1;
+    margin-top: 70%;
+    width: 10rem;
+    margin-left: 25%; 
+    
+
+}
+
+.imglink{
+    position: relative;
+}
+.h-font {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: lighter;
+    font-size: 1.25rem;
+}
+.image{
+    width: 160px;
+    margin-left: 30px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+.navbar{
+    padding:0 1rem !important;
+    background-color: #387997;
+}
+.nav-link {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-right: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.dropdown-menu {
+    background-color: #75acc5 !important;
+}
+
+.dropdown-item {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.dropdown-item:hover {
+    background: color #387997 !important;
+    font-weight: 500;
+}
+
+.fa-copyright {
+    font-size: 20px !important;
+}
+
+.footer,
+.fa-whatsapp,
+.fa-envelope-o {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #387997;
+    color: white;
+}
+
+.footer>a {
+    font-weight: 700 !important;
+}
